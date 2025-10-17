@@ -12,7 +12,7 @@
 
 * 🧠 自动检测左右图片差异
 * 🖱️ 自动点击差异位置
-* 🎨 可视化结果展示（差异区域红色高亮）
+* 🎨 可视化结果展示（差异区域高亮）
 * ⚙️ 可调参数（最小面积阈值、高斯模糊核大小、是否启用自动点击）
 * 🪟 窗口始终置顶显示（不会被其他窗口覆盖）
 * 🕶️ 检测时自动隐藏窗口，避免被截屏捕捉
@@ -20,17 +20,6 @@
 ---
 
 ## 🧰 运行环境
-
-| 模块            | 版本建议      |
-| ------------- | --------- |
-| Python        | 3.8+      |
-| opencv-python | ≥ 4.8     |
-| numpy         | ≥ 1.24    |
-| pyautogui     | ≥ 0.9     |
-| pillow        | ≥ 9.0     |
-| pywin32       | ≥ 306     |
-| tkinter       | Python 自带 |
-
 安装依赖：
 
 ```bash
@@ -49,14 +38,6 @@ python play.py
 
 启动后将弹出一个名为 **“帮我找茬”** 的控制界面：
 
-* 左侧按钮：🔍 找茬（执行检测）
-* 右侧按钮：❌ 退出
-* 下方为参数调节与结果显示区域
-
----
-
-### 2️⃣ 操作步骤
-
 1. 打开 **大家来找茬** 游戏窗口（必须名称为 `"大家来找茬"`）；
 2. 运行脚本，保持游戏窗口可见；
 3. 点击【🔍 找茬】按钮：
@@ -68,7 +49,7 @@ python play.py
 
 ---
 
-### 3️⃣ 参数说明
+### 参数说明
 
 | 参数         | 功能                   | 建议范围     |
 | ---------- | -------------------- | -------- |
@@ -77,11 +58,15 @@ python play.py
 | **启用自动点击** | 是否自动点击检测到的差异点        | 可选（默认开启） |
 
 ---
+## ✨ 效果预览
+<img width="1638" height="631" alt="5a9c377110f20492156f5120ca14657b" src="https://github.com/user-attachments/assets/8440e3fa-344d-46a5-bdee-784b39cb83b6" />
 
-## 🧩 界面预览
-**<img width="547" height="632" alt="image" src="https://github.com/user-attachments/assets/df2fb237-70a3-40e3-96ed-2c6b0fdf7e93" />
-**
----
+<img width="1655" height="626" alt="04da04705e7527cf6494854c50409bce" src="https://github.com/user-attachments/assets/d2ce4ad8-5a4e-4aae-82bd-766626e12486" />
+
+<img width="1649" height="630" alt="fe802bc029981a280d81e42ca122c68e" src="https://github.com/user-attachments/assets/2bdc75ec-75b7-4abc-afe4-a10575c4bea6" />
+
+<img width="1696" height="633" alt="76e2ecb259862ad797c7e18e2ef52fd2" src="https://github.com/user-attachments/assets/7ef0c888-364a-4014-9843-42b00e49fd67" />
+
 
 ## ⚠️ 注意事项
 
